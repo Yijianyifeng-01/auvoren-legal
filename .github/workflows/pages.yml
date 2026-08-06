@@ -1,5 +1,7 @@
 name: Deploy legal site to GitHub Pages
 
+# Keep deployment tied to every published legal update on main.
+
 on:
   push:
     branches: [main]
